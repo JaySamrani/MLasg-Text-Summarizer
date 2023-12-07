@@ -50,5 +50,6 @@ The Transformer-based text summarization process involves several key steps, sta
 After the Transformer model completes the summarization process, post-processing steps are crucial for refining the generated summaries. The post-processing phase involves tasks such as detokenization, which reverses the tokenization process to reconstruct human-readable summaries. This step aims to transform the model-generated tokenized sequences back into natural language sentences or phrases. Additionally, the generated summaries might undergo polishing procedures like grammar checks, coherence evaluations, or length adjustments to ensure they are fluent, accurate, and align with the intended summarization objectives. Post-processing plays a pivotal role in enhancing the quality and readability of the final summaries produced by the Transformer-based text summarization model.
 
 ## 5. Contribution:
-### Manjeet: 
-### Jay Samrani: 
+### Manjeet: Data preprocessing, masking. 
+### Jay Samrani: Post processing, Evaluation, testing.
+### Narendra Kumar: Architecture construction,  Learning rate schedular
