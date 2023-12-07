@@ -1,4 +1,4 @@
-#  Text summarization
+#  1. Text summarization
 Text summarization is the art of condensing extensive blocks of text into concise, coherent versions while retaining the essential meaning and key points. It's a process that involves extracting the core information from the source material, whether it's an article, document, or any textual content. This condensed form allows for quicker understanding and retrieval of crucial information, making it a valuable tool in various applications, such as news aggregation, information retrieval, and document analysis.
 
 ### Example:
@@ -11,6 +11,9 @@ We tried to achieve this target using two models :
 
 detailed explanation of these two models are there in [LSTM_readme.md](LSTM_README.md) and [TRANSFORMER_readme.md](Transformer_readme.md) files
 
+## Transformer and LSTM results comparision:
+### 1. 
+![image](https://github.com/JaySamrani/MLasg-Text-Summarizer/assets/111739529/4922be99-8f29-4930-8319-4c92e637973a)
 
-
-
+### 2. 
+![image](https://github.com/JaySamrani/MLasg-Text-Summarizer/assets/111739529/9ec59f63-e11b-4af8-921d-f6905ddd0466)
