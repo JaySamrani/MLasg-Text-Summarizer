@@ -39,5 +39,5 @@ The decoder model is defined using the inputs and outputs from the decoder setup
 
 ## 5. Contribution:
 ###### Jay Samrani : Model construction, model training, helping Narendra in decoding sequence. 
-###### Manjeet : Loss and accuracy management, Data Pre-processing: Data cleaning, Tokenization, text length filtering, adding special tokens. 
+###### Manjeet : Loss and accuracy management, Data Pre-processing. 
 ###### Narendra : Post-processing, Output sequence decoding 
