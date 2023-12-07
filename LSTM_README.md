@@ -37,3 +37,7 @@ Decoder Setup: The decoder is set up to generate the target sequence one word at
 ## 4. Post Processing: 
 The decoder model is defined using the inputs and outputs from the decoder setup. It takes the decoder inputs and the hidden states from the encoder and produces the decoder outputs and new internal states. The dense softmax layer (decoder_dense) is applied to the decoder outputs to generate a probability distribution over the target vocabulary.
 
+## 5. Contribution:
+###### Jay Samrani : Model construction, model training, loss and accuracy management and helping Narendra to making Decoder. 
+###### Manjeet : Data Pre-processing: Data cleaning, Tokenization, text length filtering, adding special tokens. 
+###### Narendra : Post-processing, Output sequence decoding 
