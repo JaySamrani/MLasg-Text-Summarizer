@@ -21,6 +21,8 @@ The processed data is converted into TensorFlow Dataset objects, allowing for co
 ## 2. Model conponents construction:
 ### Positional Encoding:
 get_angles and positional_encoding functions create positional encodings used to inject positional information into the input sequences.
+![image](https://github.com/JaySamrani/MLasg-Text-Summarizer/assets/111739529/e3e9b35b-9f66-4539-9973-c7373fe4f524)
+
 ### - Masking:
 create_padding_mask and create_look_ahead_mask functions generate masks to handle padding and look-ahead sequences, respectively.
 ### -  Scaled Dot-Product Attention:
@@ -39,6 +41,7 @@ Encoder and Decoder classes stack multiple encoder and decoder layers respective
 ### -  Transformer Model:
 
 Transformer class integrates the encoder and decoder, including a final dense layer for output.
+![image](https://github.com/JaySamrani/MLasg-Text-Summarizer/assets/111739529/aa6f7d66-bd90-48f0-a15e-f7b7a93789b4)
 
 ## 3. Process:
 The Transformer-based text summarization process involves several key steps, starting with the preparation and preprocessing of the dataset. The code provided loads and cleanses the Inshorts Cleaned News dataset, preparing the 'Short' and 'Headline' columns for article text and corresponding summaries. It includes text preprocessing steps such as tokenization, padding sequences to fixed lengths, and creating vocabularies for both the encoder and decoder. The implementation focuses on crucial elements like positional encoding, masking mechanisms for handling padding and future tokens, and attention mechanisms (such as scaled dot-product and multi-head attention). These are integrated into encoder and decoder layers, forming the backbone of the Transformer model. Additionally, the code establishes a custom learning rate schedule and optimizer, essential for training the model effectively. Overall, this process lays the foundation for training a Transformer model specifically tailored for text summarization tasks using the Inshorts Cleaned News dataset.
