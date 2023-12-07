@@ -39,3 +39,13 @@ Encoder and Decoder classes stack multiple encoder and decoder layers respective
 ### -  Transformer Model:
 
 Transformer class integrates the encoder and decoder, including a final dense layer for output.
+
+## 3. Process:
+The Transformer-based text summarization process involves several key steps, starting with the preparation and preprocessing of the dataset. The code provided loads and cleanses the Inshorts Cleaned News dataset, preparing the 'Short' and 'Headline' columns for article text and corresponding summaries. It includes text preprocessing steps such as tokenization, padding sequences to fixed lengths, and creating vocabularies for both the encoder and decoder. The implementation focuses on crucial elements like positional encoding, masking mechanisms for handling padding and future tokens, and attention mechanisms (such as scaled dot-product and multi-head attention). These are integrated into encoder and decoder layers, forming the backbone of the Transformer model. Additionally, the code establishes a custom learning rate schedule and optimizer, essential for training the model effectively. Overall, this process lays the foundation for training a Transformer model specifically tailored for text summarization tasks using the Inshorts Cleaned News dataset.
+
+## 4. Post-processing:
+After the Transformer model completes the summarization process, post-processing steps are crucial for refining the generated summaries. The post-processing phase involves tasks such as detokenization, which reverses the tokenization process to reconstruct human-readable summaries. This step aims to transform the model-generated tokenized sequences back into natural language sentences or phrases. Additionally, the generated summaries might undergo polishing procedures like grammar checks, coherence evaluations, or length adjustments to ensure they are fluent, accurate, and align with the intended summarization objectives. Post-processing plays a pivotal role in enhancing the quality and readability of the final summaries produced by the Transformer-based text summarization model.
+
+## 5. Contribution:
+### Manjeet: 
+### Jay Samrani: 
