@@ -1,4 +1,4 @@
-# MLasg-Text-Summarizer
+# LSTM text summarizer
 ## 1. Data Pre-processing
 Overview:
 In order to prepare raw data for use in machine learning and natural language processing applications, data preprocessing is an essential step. We describe in this paper the several pretreatment processes we used to prepare the dataset for text summarizing. Our task is to clean and convert the dataset, which is made up of text and summary pairs, into a format that can be used to train a text summarizing model.
