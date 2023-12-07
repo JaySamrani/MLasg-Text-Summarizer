@@ -9,4 +9,8 @@ We tried to achieve this target using two models :
 1) LSTM
 2) Transformer
 
-detailed explanation of these two models are there in [LSTM](LSTM_README.md) and TRANSFORMER readme files
+detailed explanation of these two models are there in [LSTM_readme.md](LSTM_README.md) and [TRANSFORMER_readme.md](Transformer_readme.md) files
+
+
+
+
